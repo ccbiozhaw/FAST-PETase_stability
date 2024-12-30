@@ -42,7 +42,8 @@ x_mid = (x1 + x2) / 2
 ax1.plot([x1, x_mid, x_mid, x2], [y1, y1, y2, y2], color='black', linestyle='-', linewidth=1)
 ax1.annotate('', xy=(x2, y2), xytext=(x_mid, y2), arrowprops=dict(arrowstyle='->', color='black'))
 delta1 = abs(y1 - y2)
-ax1.text(x_mid, y2+2, f'{delta1:.2f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
+rounded_delta1 = round(delta1, 1)
+ax1.text(x_mid, y2+2, f'{delta1:.1f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
 
 x3, x4 = 2 + bar_width / 2, 3 - bar_width / 2
 y3, y4 = bar_positions_1[2], bar_positions_1[3]
@@ -50,7 +51,8 @@ x_mid_2 = (x3 + x4) / 2
 ax1.plot([x3, x_mid_2, x_mid_2, x4], [y3, y3, y4, y4], color='black', linestyle='-', linewidth=1)
 ax1.annotate('', xy=(x4, y4), xytext=(x_mid_2, y4), arrowprops=dict(arrowstyle='->', color='black'))
 delta2 = abs(y3 - y4)
-ax1.text(x_mid_2, y3+2, f'{-delta2:.2f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
+rounded_delta2 = round(delta2, 1)
+ax1.text(x_mid_2, y3+2, f'{-delta2:.1f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
 
 # Second subplot (bottom)
 ax2 = axes[1]
@@ -73,7 +75,8 @@ x_mid = (x1 + x2) / 2
 ax2.plot([x1, x_mid, x_mid, x2], [y1, y1, y2, y2], color='black', linestyle='-', linewidth=1)
 ax2.annotate('', xy=(x2, y2), xytext=(x_mid, y2), arrowprops=dict(arrowstyle='->', color='black'))
 delta1 = abs(y1 - y2)
-ax2.text(x_mid, y2+3, f'{delta1:.2f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
+rounded_delta1 = round(delta1, 1)
+ax2.text(x_mid, y2+3, f'{rounded_delta1:.1f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
 
 x3, x4 = 2 + bar_width / 2, 3 - bar_width / 2
 y3, y4 = bar_positions_2[2], bar_positions_2[3]
@@ -81,9 +84,10 @@ x_mid_2 = (x3 + x4) / 2
 ax2.plot([x3, x_mid_2, x_mid_2, x4], [y3, y3, y4, y4], color='black', linestyle='-', linewidth=1)
 ax2.annotate('', xy=(x4, y4), xytext=(x_mid_2, y4), arrowprops=dict(arrowstyle='->', color='black'))
 delta2 = abs(y3 - y4)
-ax2.text(x_mid_2, y3+3, f'{-delta2:.2f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
+rounded_delta2 = round(delta2, 1)
+ax2.text(x_mid_2, y3+3, f'{-rounded_delta2:.1f} kcal · mol$^{{-1}}$', ha='center', va='top', fontsize=10)
 
 # Layout adjustments
 plt.tight_layout()
-plt.savefig("Combined_WT_vs_FAST_Stacked.png", dpi=1000)
+plt.savefig("Combined_WT_vs_FAST_Stacked.png", dpi=2500)
 plt.show()
