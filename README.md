@@ -36,10 +36,15 @@ conda create --name GEMS python=3.10
 ```
 ## Methods and Code Availability
 We provide relevant data and code snippets utilized for:
+
 a) CNAnalysis
+
 b) RMSD/RMSF analysis
+
 c) Secondary structure analysis
+
 d) Hydrogen bonding analysis
+
 e) Energy of unfolding calculation 
 
 ## Citation
