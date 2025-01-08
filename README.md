@@ -33,7 +33,7 @@ THIS WILL BE ADAPTED
 Alternatively, create a Conda environment from scratch with the following commands:
 ```
 conda create --name GEMS python=3.10
-
+```
 ## Methods and Code Availability
 We provide relevant data and code snippets utilized for:
 a) CNAnalysis
