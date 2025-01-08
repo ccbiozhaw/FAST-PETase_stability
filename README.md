@@ -6,6 +6,7 @@ Peter Stockinger[1,2], Cornel Niederhauser [2], Sebastien Farnaud [1]§, and Reb
 
 <sub>1 Research Centre for Health & Life Sciences, Coventry University, CV1 5FB, Coventry, United Kingdom</sub><br />
 <sub>2 Competence Center for Biocatalysis, Zurich University of Applied Sciences, Einsiedlerstrasse 31, 8820 Wädenswil, Switzerland</sub><br />
+<sub>§ corresponding authors
 
 ## Overview 
 This repository contains code and supplementary data for the publication "Computational Analysis Reveals Temperature-Induced Stabilization of FAST-PETase".
