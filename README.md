@@ -38,17 +38,16 @@ conda activate sim
 ## Methods and Code Availability
 We provide relevant data and code snippets utilized for:
 
-a) CNAnalysis
+a) CNAnalysis (https://cpclab.uni-duesseldorf.de/cna/)
 
-b) RMSD/RMSF analysis
+b) MD simulations & analysis (https://openmm.org/documentation ; https://mdtraj.org/1.9.4/analysis.html)
+-RMSD/RMSF analysis 
+-Secondary structure analysis
+-Hydrogen bonding analysis
 
-c) Secondary structure analysis
+c) Energy of unfolding calculation 
 
-d) Hydrogen bonding analysis
-
-e) Energy of unfolding calculation 
-
-Please note, that the latter relies on external standalone software of EvoEF1, EvoEF2 and FoldX:
+Please note, that the energy calculations rely on external standalone software of EvoEF1, EvoEF2 and FoldX:
 
 PLEASE INSERT LINKS HERE
 
