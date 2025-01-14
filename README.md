@@ -47,16 +47,21 @@ https://cpclab.uni-duesseldorf.de/cna/
 b) Analysis of MD Trajectories
 - Secondary structure analysis
 - Hydrogen bonding analysis
-- 
+  
 https://openmm.org/documentation
+
 https://mdtraj.org/1.9.4/analysis.html
 
 
 c) Energy of unfolding calculation 
 Please note, that the energy calculations rely on external standalone software of EvoEF1, EvoEF2 and FoldX:
+
 https://zhanggroup.org/EvoEF/
+
 https://github.com/tommyhuangthu/EvoEF
+
 https://github.com/tommyhuangthu/EvoEF2
+
 https://foldxsuite.crg.eu/
 
 ## Citation
