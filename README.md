@@ -41,7 +41,6 @@ We provide relevant data and code snippets utilized for:
 a) CNAnalysis (https://cpclab.uni-duesseldorf.de/cna/)
 
 b) MD simulations & analysis (https://openmm.org/documentation ; https://mdtraj.org/1.9.4/analysis.html)
-- RMSD/RMSF analysis
 - Secondary structure analysis
 - Hydrogen bonding analysis
 
