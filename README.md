@@ -18,22 +18,22 @@ The code has been tested on the following systems:
 
 **Python Dependencies** <br />
 THIS WILL BE ADAPTED
-We recommend using `miniconda3` to set up a Python 3.10 virtual environment. This software has been tested with:
+We recommend using `miniconda3` to set up a virtual Python environment. This software has been tested with:
 ```
-python=3.10.8
-numpy=1.26.4
-rdkit=2024.03.3
-transformers=4.33.3
-ankh=1.10.0
-biopython=1.83
-pytorch=2.0.1
-pytorch-cuda=11.7
-pyg=2.5.2
+python=
+numpy=
+pandas=
+mdtraj=
+openmm=
+
+WHAT ELSE IS IMPORTANT? Especially plots!
+
 ```
 THIS WILL BE ADAPTED
-Alternatively, create a Conda environment from scratch with the following commands:
+Alternatively, create the Conda environment from YAML file with the following commands:
 ```
-conda create --name GEMS python=3.10
+conda env create -f sim.yml
+conda activate sim
 ```
 ## Methods and Code Availability
 We provide relevant data and code snippets utilized for:
