@@ -36,21 +36,28 @@ For plots:
 conda env create -f plots.yml
 conda activate plots
 ```
+Please note, that the energy calculations rely on external standalone software of EvoEF1, EvoEF2 and FoldX.
 
 ## Methods and Code Availability
 We provide relevant data and code snippets utilized for:
 
-a) CNAnalysis (https://cpclab.uni-duesseldorf.de/cna/)
+a) CNAnalysis 
+https://cpclab.uni-duesseldorf.de/cna/
 
-b) MD simulations & analysis (https://openmm.org/documentation ; https://mdtraj.org/1.9.4/analysis.html)
+b) Analysis of MD Trajectories
 - Secondary structure analysis
 - Hydrogen bonding analysis
+- 
+https://openmm.org/documentation
+https://mdtraj.org/1.9.4/analysis.html
+
 
 c) Energy of unfolding calculation 
-
 Please note, that the energy calculations rely on external standalone software of EvoEF1, EvoEF2 and FoldX:
-
-PLEASE INSERT LINKS HERE
+https://zhanggroup.org/EvoEF/
+https://github.com/tommyhuangthu/EvoEF
+https://github.com/tommyhuangthu/EvoEF2
+https://foldxsuite.crg.eu/
 
 ## Citation
 Please cite the following publication if you found this ressource helpful:
