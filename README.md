@@ -48,6 +48,10 @@ d) Hydrogen bonding analysis
 
 e) Energy of unfolding calculation 
 
+Please note, that the latter relies on external standalone software of EvoEF1, EvoEF2 and FoldX:
+
+PLEASE INSERT LINKS HERE
+
 ## Citation
-Please cite the following review if you found this ressource helpful:
+Please cite the following publication if you found this ressource helpful:
 t.b.d.
