@@ -14,7 +14,6 @@ This repository contains code and supplementary data for the publication "Comput
 ## Software Requirements
 The code has been tested on the following systems:
 - Ubuntu 22.04 LTS
-- 
 - Ubuntu 24.04 LTS
 
 **Python Dependencies** <br />
@@ -42,13 +41,9 @@ We provide relevant data and code snippets utilized for:
 a) CNAnalysis (https://cpclab.uni-duesseldorf.de/cna/)
 
 b) MD simulations & analysis (https://openmm.org/documentation ; https://mdtraj.org/1.9.4/analysis.html)
-
--RMSD/RMSF analysis 
-
--Secondary structure analysis
-
--Hydrogen bonding analysis
-
+- RMSD/RMSF analysis
+- Secondary structure analysis
+- Hydrogen bonding analysis
 
 c) Energy of unfolding calculation 
 
