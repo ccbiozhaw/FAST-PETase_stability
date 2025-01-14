@@ -17,24 +17,26 @@ The code has been tested on the following systems:
 - Ubuntu 24.04 LTS
 
 **Python Dependencies** <br />
-THIS WILL BE ADAPTED
-We recommend using `miniconda3` to set up a virtual Python environment. This software has been tested with:
-```
-python=
-numpy=
-pandas=
-mdtraj=
-openmm=
+We recommend to replicate out utilized conda environments to ensure compatibility of Python dependencies. 
+For this purpose, we provide separate YAML files for both:
+- calculations (sim.yml)
+- plots (plots.yml)
+  
+You can create the Conda environments from YAML file with the following commands:
 
-WHAT ELSE IS IMPORTANT? Especially plots!
+For calculations:
 
-```
-THIS WILL BE ADAPTED
-Alternatively, create the Conda environment from YAML file with the following commands:
 ```
 conda env create -f sim.yml
 conda activate sim
 ```
+For plots:
+
+```
+conda env create -f plots.yml
+conda activate plots
+```
+
 ## Methods and Code Availability
 We provide relevant data and code snippets utilized for:
 
